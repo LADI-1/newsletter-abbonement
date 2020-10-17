@@ -1,0 +1,29 @@
+<div class="container" style="background-color: rgb(6, 28, 45);">
+  <div class="menu" style="background-color: rgb(6, 28, 45);">
+    {{#link-to "index"}}
+      <h1>
+        <em>ADDITIVE</em>
+      </h1>
+    {{/link-to}}
+    <div class="links">
+      {{#link-to "fachbeitraege" class="menu-fachbeitraege"}}
+        Fachbeiträge
+      {{/link-to}}
+      {{#link-to "mission" class="menu-mission"}}
+        Mission
+      {{/link-to}}
+      {{#link-to "kompetenz" class="menu-kompetenz"}}
+        Kompetenz
+      {{/link-to}}
+      {{#link-to "relevanz" class="menu-relevanz"}}
+        Relevanz
+      {{/link-to}}
+      {{#link-to "kontakt" class="menu-kontakt"}}
+        Kontakt
+      {{/link-to}}
+    </div>
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>

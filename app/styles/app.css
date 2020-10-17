@@ -1,0 +1,27 @@
+a:hover{
+    color: rgb(152, 136, 117);
+}
+
+div{
+    background-color: rgb(6, 28, 45);
+    color: white;
+}
+
+.button{
+    background-color:  rgb(6, 28, 45);
+    border: 2px solid white;
+}
+
+.button:hover{
+    border: 2px solid rgb(152, 136, 117);
+}
+
+input{
+    background-color:  rgb(6, 28, 45);
+    border: 2px solid white;
+    border-radius: 4pt;
+}
+
+li{
+    list-style-type: none;
+}

@@ -1,0 +1,26 @@
+<br>
+    <br>
+    <label>Email-Adresse:
+        {{input name='email' value=model.email placeholder='Email'}}
+    </label>
+    <br>
+    <label>Vorname:
+        {{input name='vorname' value=model.vorname placeholder='Vorname'}}
+    </label>
+    <br>
+    <label>Nachname:
+        {{input name='nachname' value=model.nachname placeholder='Nachname'}}
+    </label>
+    <br>
+    <label>Geschlecht:
+        {{input name='geschlecht' value=model.geschlecht placeholder='Mann/Frau/Keine Angabe'}}
+    </label>
+    <br>
+    {{#link-to "privacy"}}Akzeptiere Datenschutzbestimmungen{{/link-to}}
+    {{input type = "checkbox" checked = model.privacy}}
+    <br>
+    <br>
+    <button class="button" {{action 'submitForm'}}>Jetzt abonnieren!</button>
+    <br>
+    <br>
+{{outlet}}
